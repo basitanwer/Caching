@@ -61,6 +61,11 @@ namespace Microsoft.Extensions.Caching.Redis
                 throw new NotImplementedException();
             }
 
+            public void Disconnect()
+            {
+                throw new NotImplementedException();
+            }
+
             public byte[] Get(string key)
             {
                 throw new NotImplementedException();

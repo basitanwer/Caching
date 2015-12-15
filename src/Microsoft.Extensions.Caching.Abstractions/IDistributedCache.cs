@@ -26,5 +26,7 @@ namespace Microsoft.Extensions.Caching.Distributed
         void Remove(string key);
 
         Task RemoveAsync(string key);
+
+        void Disconnect();
     }
 }
